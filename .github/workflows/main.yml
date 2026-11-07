@@ -2,7 +2,7 @@ name: RDP
 
 on:
   workflow_dispatch:
-
+runs-on: self-hosted
 jobs:
   secure-rdp:
     runs-on: windows-latest
