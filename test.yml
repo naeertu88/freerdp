@@ -1,1 +1,7 @@
-runs-on: self-hosted
+jobs:
+  run:
+    runs-on: self-hosted
+    timeout-minutes: 7200
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./your-script.sh
